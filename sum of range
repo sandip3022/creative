@@ -1,0 +1,8 @@
+#SUM OF N NAUMBER IN  RANGE 
+lower_limit = int(input("Enter lower limit:"))
+Upper_limit = int(input("Enter Upper limit:"))
+sum= 0 
+for i in range(lower_limit,Upper_limit+1 ):
+    sum=sum+i
+    
+print("Addition of number = ",sum)  
